@@ -1,0 +1,45 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: #9FCEDF;
+}
+.side-Bar {
+    background-color: white;
+    width: 30%;
+    height: 600px;
+    margin: 10px 20px;
+}
+
+ul{
+    list-style: none;
+}
+ul li{
+    list-style: none;
+    margin-top: 30px;
+    color: #4f4f4f;;
+}
+div {
+    padding: 20px 0px 20px 40px;
+    background-color: #CFE7EF;
+    color: black ;
+    font-size: 18px;
+    font-weight:bold;
+}
+span {
+    float: right;
+    margin-right: 15px;
+    
+}
+
+ul li ul li {
+    color: #808080;
+}
+
+ul li ul::before {
+    content: "";
+    width: 3px;
+    height: 132px;
+    position: absolute;
+    background-color: #DDDDDD;
+    left: 68px;
+}
